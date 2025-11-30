@@ -20,3 +20,8 @@ No Database Required: Uses pickle files for simple data persistence
 
 ## Installation
 ## Basic Usage
+
+## Disclaimer
+This software is for educational and research purposes only. It is not financial advice and should not be used for actual trading without proper due diligence, risk assessment, and professional consultation. Past performance does not guarantee future results.
+USE AT YOUR OWN RISK. 
+The authors and contributors are not responsible for any financial losses incurred from using this software.
