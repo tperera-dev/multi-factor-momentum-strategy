@@ -3,6 +3,7 @@
 This implementation uses a file-based persistence layer with Python pickle files instead of traditional SQL databases, providing a lightweight, zero-configuration solution ideal for research, backtesting, and small-to-medium portfolio management.
 
 ## High-Level Architecture
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                     MomentumStrategy                            │
 │                  (Main Orchestrator)                            │
@@ -56,5 +57,6 @@ This implementation uses a file-based persistence layer with Python pickle files
 │  • Volatility calc   │              │  • P&L reporting      │
 │  • VaR estimation    │              │  • CSV export         │
 └──────────────────────┘              └───────────────────────┘
+```
 
 ## Data Flow
