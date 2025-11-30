@@ -60,3 +60,13 @@ This implementation uses a file-based persistence layer with Python pickle files
 ```
 
 ## Data Flow
+
+### Initialization Flow
+### Rebalancing Flow
+### Daily Update Flow
+
+## Core Components
+### DataManager
+### FactorCalculator
+### PortfolioManager
+### RiskManager
