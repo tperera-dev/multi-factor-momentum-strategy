@@ -16,6 +16,8 @@ import pandas as pd
 class DataCollector:
     """Collects market and fundamental data"""
     def __init__(self, config, data_manager):
+
+
         self.config = config
         self.data_manager = data_manager
 
@@ -175,3 +177,4 @@ if __name__ == "__main__":
     print("... collecting data ...")
     data_collector.update_data()
     print("✓ [4/4] Collected and updated data sucessfully")
+    print(data_collector.data_manager.get_price_data())

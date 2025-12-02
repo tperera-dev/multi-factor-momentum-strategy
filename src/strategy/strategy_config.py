@@ -38,8 +38,8 @@ class StrategyConfig:
 
     # Data paths
     DATA_DIR = Path('data')
-    PRICE_DATA_FILE = DATA_DIR / 'price_data.pkl'
-    FUNDAMENTAL_DATA_FILE = DATA_DIR / 'fundamental_data.pkl'
-    PORTFOLIO_FILE = DATA_DIR / 'portfolio.pkl'
-    TRANSACTIONS_FILE = DATA_DIR / 'transactions.pkl'
-    UNIVERSE_FILE = DATA_DIR / 'universe.pkl'
+    PRICE_DATA_FILE = DATA_DIR / 'price_data.parquet'
+    FUNDAMENTAL_DATA_FILE = DATA_DIR / 'fundamental_data.parquet'
+    PORTFOLIO_FILE = DATA_DIR / 'portfolio.parquet'
+    TRANSACTIONS_FILE = DATA_DIR / 'transactions.parquet'
+    UNIVERSE_FILE = DATA_DIR / 'universe.parquet'
